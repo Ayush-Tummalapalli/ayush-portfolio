@@ -844,6 +844,107 @@ ul {
   margin: 0 auto;
 }
 
+/* Soft Skills & Interests */
+.soft-skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.soft-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.soft-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.soft-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-sm);
+  background: rgba(0, 242, 254, 0.1);
+  color: var(--accent-cyan);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.soft-title {
+  display: block;
+  font-weight: 600;
+  color: var(--text-main);
+  font-size: 0.95rem;
+}
+
+.soft-desc {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.languages-box {
+  border-top: 1px solid var(--border-color);
+  padding-top: 18px;
+}
+
+.languages-label {
+  display: block;
+  font-weight: 600;
+  color: var(--accent-cyan);
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.interests-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.interest-card {
+  padding: 20px;
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  transition: var(--transition);
+}
+
+.interest-card:hover {
+  background: rgba(0, 242, 254, 0.08);
+  border-color: var(--accent-cyan);
+  transform: translateY(-3px);
+}
+
+.interest-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(79, 172, 254, 0.2), rgba(157, 78, 223, 0.2));
+  color: var(--accent-cyan);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+.interest-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text-main);
+}
+
 .info-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -969,8 +1070,14 @@ ul {
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
   .projects-grid { grid-template-columns: 1fr; }
   .skills-grid { grid-template-columns: 1fr; }
+  .soft-skills-grid { grid-template-columns: 1fr; }
   .cert-grid { grid-template-columns: repeat(2, 1fr); }
-  .contact-wrapper { grid-template-columns: 1fr; }
+  .info-list { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 768px) {
+  .info-list { grid-template-columns: 1fr; }
+  .interests-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 768px) {
