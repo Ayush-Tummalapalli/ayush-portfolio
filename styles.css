@@ -713,6 +713,9 @@ ul {
 .project-links {
   margin-top: auto;
   padding-top: 16px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
 }
 
 /* Skills Section */
