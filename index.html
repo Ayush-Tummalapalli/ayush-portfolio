@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayush Tummalapalli | Software Engineer & AI Developer</title>
+  <meta name="description" content="Portfolio of Ayush Tummalapalli - Computer Science Senior at SRM, ex-Salesforce Intern, Full-Stack & AI Analytics Developer.">
+  
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Ambient Glow Overlay -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>Ayush<span class="logo-accent">.</span>T<span class="logo-bracket">/&gt;</span>
+      </a>
+      
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="Ayush_Tummalapalli_Resume.pdf" download class="btn btn-outline btn-sm">
+          <i class="fa-solid fa-download"></i> Resume
+        </a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <div class="badge-pill">
+            <span class="status-dot"></span> Final Year CS Senior @ SRM IST
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Ayush Tummalapalli</span>
+          </h1>
+          <h2 class="hero-subtitle">
+            I build <span class="typing-text" id="typing-text"></span>
+          </h2>
+          <p class="hero-description">
+            Former <strong>Salesforce Intern</strong> and <strong>INTI International University Semester Abroad Scholar</strong>. Passionate about AI-powered analytics, full-stack web platforms, and deep learning solutions.
+          </p>
+          
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+              View Featured Projects <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              Get in Touch
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <a href="https://github.com/Ayush-Tummalapalli" target="_blank" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/ayush-tummalapalli" target="_blank" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="mailto:ayush.tummalapalli@gmail.com" aria-label="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="tel:+918309162730" aria-label="Phone">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="glass-card code-card">
+            <div class="code-header">
+              <div class="code-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="code-title">developer_profile.py</span>
+            </div>
+            <pre class="code-body"><code><span class="keyword">class</span> <span class="class-name">SoftwareEngineer</span>:
+    <span class="keyword">def</span> <span class="func-name">__init__</span>(self):
+        self.name = <span class="string">"Ayush Tummalapalli"</span>
+        self.role = <span class="string">"Full-Stack & AI Developer"</span>
+        self.education = <span class="string">"B.Tech CSE @ SRM IST"</span>
+        self.global_exp = <span class="string">"INTI University (Malaysia)"</span>
+        self.internship = <span class="string">"Salesforce Intern"</span>
+        self.gpa = <span class="number">8.23</span>
+
+    <span class="keyword">def</span> <span class="func-name">get_core_stack</span>(self):
+        <span class="keyword">return</span> [
+            <span class="string">"Python"</span>, <span class="string">"FastAPI"</span>, <span class="string">"React"</span>, 
+            <span class="string">"SQL/MongoDB"</span>, <span class="string">"Gemini API"</span>, <span class="string">"Kotlin"</span>
+        ]
+
+<span class="comment"># Outputting active status</span>
+me = SoftwareEngineer()
+<span class="keyword">print</span>(<span class="string">f"Ready to build impact: {me.get_core_stack()}"</span>)</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <section class="stats-bar">
+      <div class="container stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-solid fa-briefcase"></i></div>
+          <div class="stat-info">
+            <span class="stat-number">Salesforce</span>
+            <span class="stat-label">Software Engineering Intern</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-solid fa-code-commit"></i></div>
+          <div class="stat-info">
+            <span class="stat-number">4+</span>
+            <span class="stat-label">Core Featured Projects</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-solid fa-earth-americas"></i></div>
+          <div class="stat-info">
+            <span class="stat-number">Global Study</span>
+            <span class="stat-label">INTI International Univ (Malaysia)</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-solid fa-certificate"></i></div>
+          <div class="stat-info">
+            <span class="stat-number">4</span>
+            <span class="stat-label">Industry Certifications</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-subtitle">Combining strong theoretical fundamentals with hands-on software engineering</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card glass-card">
+            <div class="card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <h3>Education & Academic Foundation</h3>
+            <p>
+              Pursuing my <strong>B.Tech in Computer Science and Engineering</strong> at <strong>SRM Institute of Science and Technology</strong> (Aug 2023 – May 2027) with a CGPA of <strong>8.23 / 10</strong>.
+            </p>
+            <p style="margin-top: 10px;">
+              Completed an international semester abroad program at <strong>INTI International University, Malaysia</strong> (Aug 2025 – Dec 2025, CGPA 3.19/4), gaining multicultural collaboration and software perspective.
+            </p>
+          </div>
+
+          <div class="about-card glass-card">
+            <div class="card-icon"><i class="fa-solid fa-laptop-code"></i></div>
+            <h3>Development & Problem Solving</h3>
+            <p>
+              Experienced in building full-stack platforms using <strong>React, FastAPI, and PostgreSQL</strong>, as well as AI-powered analytical dashboards leveraging the <strong>Gemini API</strong> and data processing pipelines.
+            </p>
+            <p style="margin-top: 10px;">
+              Strong foundation in cybersecurity protocols (CCNA & Google Cybersecurity Certified) and object-oriented mobile design (Kotlin / Android Studio).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Education Timeline -->
+    <section class="section alt-bg" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Work & <span class="gradient-text">Education History</span></h2>
+          <p class="section-subtitle">My practical industry experience and educational journey</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Salesforce Intern -->
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fa-solid fa-building-columns"></i></div>
+            <div class="timeline-content glass-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="role-title">Salesforce Intern</h3>
+                  <span class="company-name">Salesforce</span>
+                </div>
+                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> May 2025 – Jul 2025</span>
+              </div>
+              <ul class="timeline-bullets">
+                <li>Worked directly with Salesforce platform tools and custom automation workflows.</li>
+                <li>Assisted in implementing scalable CRM solutions and automation features for enhanced customer processes.</li>
+                <li>Collaborated with senior cross-functional development teams to audit and improve system efficiency.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tag">Salesforce Platform</span>
+                <span class="tag">CRM Solutions</span>
+                <span class="tag">Workflow Automation</span>
+                <span class="tag">System Efficiency</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- INTI Abroad -->
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fa-solid fa-plane-departure"></i></div>
+            <div class="timeline-content glass-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="role-title">Semester Abroad Program Scholar</h3>
+                  <span class="company-name">INTI International University (Malaysia)</span>
+                </div>
+                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> Aug 2025 – Dec 2025</span>
+              </div>
+              <p>Studied computer science modules abroad with a focus on international tech collaboration, maintaining a <strong>3.19 / 4 CGPA</strong>.</p>
+              <div class="tech-tags">
+                <span class="tag">Global Tech Perspectives</span>
+                <span class="tag">Collaborative Development</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- SRM IST -->
+          <div class="timeline-item">
+            <div class="timeline-dot"><i class="fa-solid fa-school"></i></div>
+            <div class="timeline-content glass-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="role-title">B.Tech in Computer Science and Engineering</h3>
+                  <span class="company-name">SRM Institute of Science and Technology</span>
+                </div>
+                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> Aug 2023 – May 2027</span>
+              </div>
+              <p>Current CGPA: <strong>8.23 / 10</strong>. Active in AI development, full-stack web platforms, network security, and data science workshops.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">Selected AI analytics, deep learning models, full-stack apps, and mobile projects</p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="ai-data">AI & Data Analytics</button>
+          <button class="filter-btn" data-filter="fullstack">Full-Stack</button>
+          <button class="filter-btn" data-filter="mobile">Mobile & Vision</button>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 1: IPLytics -->
+          <div class="project-card glass-card" data-category="ai-data">
+            <div class="project-image">
+              <div class="project-overlay">
+                <i class="fa-solid fa-chart-line overlay-icon"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-badge">AI & Sports Analytics</div>
+              <h3 class="project-title">IPLytics — AI-Powered IPL Analytics Platform</h3>
+              <p class="project-desc">
+                AI-powered analytics platform for IPL player, team, and venue performance insights. Features natural-language querying via Gemini API and interactive dashboards.
+              </p>
+              <ul class="project-highlights">
+                <li>Built natural-language query engine using Streamlit & Gemini API.</li>
+                <li>Integrated PostgreSQL to analyze historical IPL stats and match trends.</li>
+                <li>Created interactive data visualizations with Pandas & Plotly.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Streamlit</span>
+                <span class="tag">Gemini API</span>
+                <span class="tag">Plotly</span>
+                <span class="tag">PostgreSQL</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Ayush-Tummalapalli/IPLytics" target="_blank" class="btn btn-sm btn-outline">
+                  <i class="fa-brands fa-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: Progresso -->
+          <div class="project-card glass-card" data-category="fullstack">
+            <div class="project-image">
+              <div class="project-overlay">
+                <i class="fa-solid fa-kanban overlay-icon"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-badge">Full-Stack Web App</div>
+              <h3 class="project-title">Progresso — Project Management Platform</h3>
+              <p class="project-desc">
+                Kanban-style project management software with real-time collaboration, role-based access control, drag-and-drop workflow boards, and task tracking.
+              </p>
+              <ul class="project-highlights">
+                <li>React frontend coupled with robust Python FastAPI backend.</li>
+                <li>JWT authentication, activity logging, and granular user roles.</li>
+                <li>Designed RESTful APIs & database schemas with SQLAlchemy & SQLite.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tag">React</span>
+                <span class="tag">FastAPI</span>
+                <span class="tag">JWT</span>
+                <span class="tag">SQLAlchemy</span>
+                <span class="tag">SQLite</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Ayush-Tummalapalli/Progresso" target="_blank" class="btn btn-sm btn-outline">
+                  <i class="fa-brands fa-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Dental Age & Gender Estimation -->
+          <div class="project-card glass-card" data-category="ai-data mobile">
+            <div class="project-image">
+              <div class="project-overlay">
+                <i class="fa-solid fa-tooth overlay-icon"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-badge">Deep Learning & Computer Vision</div>
+              <h3 class="project-title">Dental Age & Gender Estimation</h3>
+              <p class="project-desc">
+                Machine learning model designed to estimate human age and identify gender based on dental radiograph features for biometric & forensic analysis.
+              </p>
+              <ul class="project-highlights">
+                <li>Implemented image preprocessing, feature extraction, and classification pipelines.</li>
+                <li>Evaluated multi-class predictions for biological age group determination.</li>
+                <li>Published open-source model scripts and notebook benchmarks on GitHub.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Computer Vision</span>
+                <span class="tag">Deep Learning</span>
+                <span class="tag">NumPy/Pandas</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Ayush-Tummalapalli/Dental-Age-Gender-Estimation" target="_blank" class="btn btn-sm btn-outline">
+                  <i class="fa-brands fa-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: EverClinic -->
+          <div class="project-card glass-card" data-category="mobile">
+            <div class="project-image">
+              <div class="project-overlay">
+                <i class="fa-solid fa-notes-medical overlay-icon"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-badge">Android Application</div>
+              <h3 class="project-title">EverClinic — Clinic Management System</h3>
+              <p class="project-desc">
+                Native Android app built to streamline patient appointment scheduling, doctor assignment based on specialization, and medical record management.
+              </p>
+              <ul class="project-highlights">
+                <li>Developed complete UI and business logic using Kotlin in Android Studio.</li>
+                <li>Automated doctor availability check and specialization assignment algorithms.</li>
+                <li>Ensured secure local and cloud storage for patient medical histories.</li>
+              </ul>
+              <div class="tech-tags">
+                <span class="tag">Kotlin</span>
+                <span class="tag">Android Studio</span>
+                <span class="tag">SQLite</span>
+                <span class="tag">Mobile Architecture</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Ayush-Tummalapalli/EverClinic" target="_blank" class="btn btn-sm btn-outline">
+                  <i class="fa-brands fa-github"></i> Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section alt-bg" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+          <p class="section-subtitle">Core languages, frameworks, databases, and developer tooling</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Programming Languages -->
+          <div class="skill-category glass-card">
+            <div class="category-header">
+              <i class="fa-solid fa-code category-icon"></i>
+              <h3>Programming Languages</h3>
+            </div>
+            <div class="skills-list">
+              <div class="skill-item">
+                <span class="skill-name">Python</span>
+                <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">SQL</span>
+                <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Kotlin</span>
+                <div class="skill-bar"><div class="skill-progress" style="width: 75%;"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">JavaScript / HTML / CSS</span>
+                <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Frameworks & Libraries -->
+          <div class="skill-category glass-card">
+            <div class="category-header">
+              <i class="fa-solid fa-layer-group category-icon"></i>
+              <h3>Frameworks & Libraries</h3>
+            </div>
+            <div class="skills-chips">
+              <span class="chip"><i class="fa-brands fa-python"></i> Pandas & NumPy</span>
+              <span class="chip"><i class="fa-solid fa-chart-pie"></i> Plotly & Streamlit</span>
+              <span class="chip"><i class="fa-brands fa-react"></i> React</span>
+              <span class="chip"><i class="fa-solid fa-bolt"></i> FastAPI</span>
+              <span class="chip"><i class="fa-solid fa-database"></i> MongoDB</span>
+              <span class="chip"><i class="fa-solid fa-brain"></i> Gemini API</span>
+            </div>
+          </div>
+
+          <!-- Developer Tools & Platforms -->
+          <div class="skill-category glass-card">
+            <div class="category-header">
+              <i class="fa-solid fa-wrench category-icon"></i>
+              <h3>Developer Tools & Platforms</h3>
+            </div>
+            <div class="skills-chips">
+              <span class="chip"><i class="fa-brands fa-git-alt"></i> Git & GitHub</span>
+              <span class="chip"><i class="fa-brands fa-android"></i> Android Studio</span>
+              <span class="chip"><i class="fa-solid fa-cloud"></i> Salesforce CRM</span>
+              <span class="chip"><i class="fa-solid fa-code"></i> VS Code</span>
+              <span class="chip"><i class="fa-brands fa-figma"></i> Figma & Canva</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Certifications & <span class="gradient-text">Badges</span></h2>
+          <p class="section-subtitle">Verified credentials from Google, Cisco, and MongoDB</p>
+        </div>
+
+        <div class="cert-grid">
+          <!-- Cert 1 -->
+          <div class="cert-card glass-card">
+            <div class="cert-badge-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <h3>Google Cybersecurity Professional</h3>
+            <span class="cert-issuer">Google / Coursera</span>
+            <p>Completed 8-course professional program covering security analytics, threat mitigation, Python scripting, and network security.</p>
+          </div>
+
+          <!-- Cert 2 -->
+          <div class="cert-card glass-card">
+            <div class="cert-badge-icon"><i class="fa-solid fa-database"></i></div>
+            <h3>MongoDB Associate Developer</h3>
+            <span class="cert-issuer">MongoDB</span>
+            <p>Hands-on proficiency in NoSQL database schema design, indexing, CRUD operations, aggregation pipelines, and query optimization.</p>
+          </div>
+
+          <!-- Cert 3 -->
+          <div class="cert-card glass-card">
+            <div class="cert-badge-icon"><i class="fa-solid fa-network-wired"></i></div>
+            <h3>CCNA: Introduction to Networks</h3>
+            <span class="cert-issuer">Cisco Networking Academy</span>
+            <p>Practical knowledge in IP addressing, Ethernet protocols, network architectures, routing fundamentals, and security concepts.</p>
+          </div>
+
+          <!-- Cert 4 -->
+          <div class="cert-card glass-card">
+            <div class="cert-badge-icon"><i class="fa-solid fa-chart-line"></i></div>
+            <h3>Cricket Analytics Workshop</h3>
+            <span class="cert-issuer">Industry Analytics Workshop</span>
+            <p>Specialized 5-day intensive workshop applying data science algorithms to sports analytics, player stats, and match trend prediction.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section alt-bg" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+          <p class="section-subtitle">Open to Software Engineering roles, AI/Data Analytics positions, and tech discussions</p>
+        </div>
+
+        <div class="contact-wrapper">
+          <div class="contact-info glass-card">
+            <h3>Let's Connect!</h3>
+            <p>
+              I am currently actively seeking full-time Software Development and Data/AI engineering opportunities. Feel free to reach out via email, phone, or LinkedIn!
+            </p>
+
+            <div class="info-list">
+              <a href="mailto:ayush.tummalapalli@gmail.com" class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div>
+                  <span class="info-label">Email</span>
+                  <span class="info-value">ayush.tummalapalli@gmail.com</span>
+                </div>
+              </a>
+
+              <a href="tel:+918309162730" class="info-item">
+                <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                <div>
+                  <span class="info-label">Phone</span>
+                  <span class="info-value">+91 8309162730</span>
+                </div>
+              </a>
+
+              <a href="https://linkedin.com/in/ayush-tummalapalli" target="_blank" class="info-item">
+                <div class="info-icon"><i class="fa-brands fa-linkedin"></i></div>
+                <div>
+                  <span class="info-label">LinkedIn</span>
+                  <span class="info-value">linkedin.com/in/ayush-tummalapalli</span>
+                </div>
+              </a>
+
+              <a href="https://github.com/Ayush-Tummalapalli" target="_blank" class="info-item">
+                <div class="info-icon"><i class="fa-brands fa-github"></i></div>
+                <div>
+                  <span class="info-label">GitHub</span>
+                  <span class="info-value">github.com/Ayush-Tummalapalli</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <form class="contact-form glass-card" id="contact-form">
+            <h3>Send a Message</h3>
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" required placeholder="John Doe">
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" required placeholder="john@example.com">
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" required placeholder="Opportunity / Collaboration">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="4" required placeholder="Hi Ayush, I'd like to discuss..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">
+              Send Message <i class="fa-solid fa-paper-plane"></i>
+            </button>
+            <div class="form-status" id="form-status"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Ayush Tummalapalli. Designed & Built with ❤️</p>
+      <a href="#hero" class="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
