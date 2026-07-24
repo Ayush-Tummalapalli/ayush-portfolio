@@ -840,14 +840,13 @@ ul {
 
 /* Contact */
 .contact-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1.2fr;
-  gap: 40px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .info-list {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   margin-top: 30px;
 }
