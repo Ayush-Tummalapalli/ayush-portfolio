@@ -3,7 +3,7 @@
 Welcome to the source code for my personal developer portfolio website!
 
 ## 🚀 Highlights
-- **Role**: Computer Science Engineering Senior @ SRM IST | ex-Salesforce Software Intern
+- **Role**: Computer Science Engineering Senior @ SRM AP | ex-Salesforce Software Intern
 - **Global Study**: Semester Abroad Alumni @ INTI International University (Malaysia)
 - **Key Projects**:
   - **IPLytics**: AI-Powered IPL Analytics Platform (Python, Streamlit, Gemini API, PostgreSQL)
