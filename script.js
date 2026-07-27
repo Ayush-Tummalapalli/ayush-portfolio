@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'Software Solutions',
     'AI-Powered Analytics',
     'Full-Stack Web Apps',
-    'Deep Learning Models',
+    'Machine Learning Models',
     'Android Applications'
   ];
 
