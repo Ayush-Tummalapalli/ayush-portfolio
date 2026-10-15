@@ -64,27 +64,6 @@ ayush-portfolio/
 └── README.md                         # Project documentation
 ```
 
----
-
-## 🛠️ Local Development
-
-To run the portfolio website locally on your machine:
-
-```bash
-# Clone the repository
-git clone https://github.com/Ayush-Tummalapalli/ayush-portfolio.git
-cd ayush-portfolio
-
-# Start a local static server (using Python)
-python3 -m http.server 8000
-
-# Or using Node.js / npx
-npx serve ./
-```
-
-Navigate to `http://localhost:8000` in your browser.
-
----
 
 ## 📫 Get in Touch
 
