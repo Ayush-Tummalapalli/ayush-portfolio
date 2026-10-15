@@ -140,6 +140,12 @@ me = SoftwareEngineer()
           </div>
         </div>
       </div>
+      <a href="#experience" class="scroll-indicator" id="scroll-indicator" aria-label="Scroll to explore">
+        <span class="scroll-text">Explore</span>
+        <div class="mouse-icon">
+          <span class="mouse-wheel"></span>
+        </div>
+      </a>
     </section>
 
     <!-- Stats Bar -->
@@ -403,7 +409,10 @@ me = SoftwareEngineer()
               </div>
             </div>
             <div class="project-content">
-              <div class="project-badge">Full-Stack Web App</div>
+              <div class="project-badge">
+                <span>Full-Stack Web App</span>
+                <span class="live-pill"><span class="pulse-dot"></span> Live App</span>
+              </div>
               <h3 class="project-title">Itinera AI — Smart AI Travel Planner</h3>
               <p class="project-desc">
                 Intelligent travel itinerary generator that crafts custom day-by-day travel schedules tailored to your destination, travel companions, and budget preferences in seconds.
@@ -439,7 +448,10 @@ me = SoftwareEngineer()
               </div>
             </div>
             <div class="project-content">
-              <div class="project-badge">AI & Sports Analytics</div>
+              <div class="project-badge">
+                <span>AI & Sports Analytics</span>
+                <span class="live-pill"><span class="pulse-dot"></span> Live App</span>
+              </div>
               <h3 class="project-title">IPLytics — AI-Powered IPL Analytics Platform</h3>
               <p class="project-desc">
                 AI-powered analytics platform for IPL player, team, and venue performance insights. Features natural-language querying via Gemini API and interactive dashboards.
@@ -781,13 +793,14 @@ me = SoftwareEngineer()
             </p>
 
             <div class="info-list">
-              <a href="mailto:ayush.tummalapalli@gmail.com" class="info-item">
+              <div class="info-item copy-email-item" id="copy-email-btn" role="button" tabindex="0" title="Click to copy email">
                 <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
-                <div>
-                  <span class="info-label">Email</span>
+                <div class="info-text">
+                  <span class="info-label">Email <span class="copy-hint">(Click to copy)</span></span>
                   <span class="info-value">ayush.tummalapalli@gmail.com</span>
                 </div>
-              </a>
+                <span class="copy-badge" id="copy-badge" title="Copy to clipboard"><i class="fa-regular fa-copy"></i></span>
+              </div>
 
               <a href="tel:+918309162730" class="info-item">
                 <div class="info-icon"><i class="fa-solid fa-phone"></i></div>

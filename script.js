@@ -128,25 +128,46 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // 6. Contact Form Handler (Simulated AJAX Submission)
-  const contactForm = document.getElementById('contact-form');
-  const formStatus = document.getElementById('form-status');
+  // 6. 1-Click Copy Email to Clipboard
+  const copyEmailBtn = document.getElementById('copy-email-btn');
+  const copyBadge = document.getElementById('copy-badge');
 
-  if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      
-      const name = document.getElementById('name').value;
-      const email = document.getElementById('email').value;
+  if (copyEmailBtn && copyBadge) {
+    const emailToCopy = 'ayush.tummalapalli@gmail.com';
 
-      formStatus.className = 'form-status';
-      formStatus.textContent = 'Sending message...';
+    const performCopy = () => {
+      navigator.clipboard.writeText(emailToCopy).then(() => {
+        copyEmailBtn.classList.add('copied');
+        copyBadge.innerHTML = '<i class="fa-solid fa-check"></i>';
+        
+        setTimeout(() => {
+          copyEmailBtn.classList.remove('copied');
+          copyBadge.innerHTML = '<i class="fa-regular fa-copy"></i>';
+        }, 2200);
+      }).catch(err => {
+        // Fallback for older browsers
+        window.location.href = `mailto:${emailToCopy}`;
+      });
+    };
 
-      setTimeout(() => {
-        formStatus.className = 'form-status success';
-        formStatus.textContent = `Thank you, ${name}! Your message has been sent successfully. I will get back to you at ${email} shortly.`;
-        contactForm.reset();
-      }, 1000);
+    copyEmailBtn.addEventListener('click', performCopy);
+    copyEmailBtn.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        performCopy();
+      }
+    });
+  }
+
+  // 7. Scroll Indicator Fade Out on Scroll
+  const scrollIndicator = document.getElementById('scroll-indicator');
+  if (scrollIndicator) {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 80) {
+        scrollIndicator.classList.add('hidden');
+      } else {
+        scrollIndicator.classList.remove('hidden');
+      }
     });
   }
 
