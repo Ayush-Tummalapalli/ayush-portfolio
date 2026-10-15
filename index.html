@@ -28,7 +28,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=2.2">
 </head>
 <body>
 
@@ -186,34 +186,56 @@ me = SoftwareEngineer()
     <section class="section" id="about">
       <div class="container">
         <div class="section-header">
+          <div class="badge-pill about-badge">
+            <span class="status-dot"></span> Engineering DNA
+          </div>
           <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
           <p class="section-subtitle">My core philosophy and approach to building software</p>
         </div>
 
-        <div class="about-single-wrapper">
-          <div class="about-card glass-card extraordinary-card">
-            <div class="about-card-header">
-              <div class="card-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
-              <h3 class="about-card-title">What Makes Me <span class="gradient-text">Extraordinary?</span></h3>
+        <div class="extraordinary-card glass-card">
+          <!-- Card Header / Headline -->
+          <div class="extraordinary-header">
+            <div class="header-left">
+              <span class="sub-badge"><i class="fa-solid fa-wand-magic-sparkles"></i> Core Philosophy</span>
+              <h3 class="extraordinary-title">What Makes Me <span class="gradient-text">Extraordinary?</span></h3>
+            </div>
+            <div class="quote-decorative-icon" aria-hidden="true">
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+          </div>
+
+          <!-- Manifesto Lead Banner -->
+          <div class="manifesto-banner">
+            <p class="manifesto-lead">
+              "I turn genuine interests and real-world problems into useful digital products."
+            </p>
+          </div>
+
+          <!-- 3-Stage Pipeline Grid -->
+          <div class="philosophy-pipeline">
+            <div class="stage-card stage-1">
+              <div class="stage-top">
+                <span class="stage-badge">01</span>
+                <div class="stage-icon"><i class="fa-solid fa-user-check"></i></div>
+              </div>
+              <p class="stage-statement">I start with a question that matters to a real user,</p>
             </div>
 
-            <p class="about-lead">
-              I turn genuine interests and real-world problems into useful digital products.
-            </p>
+            <div class="stage-card stage-2">
+              <div class="stage-top">
+                <span class="stage-badge">02</span>
+                <div class="stage-icon"><i class="fa-solid fa-layer-group"></i></div>
+              </div>
+              <p class="stage-statement">I understand the details before shaping a solution,</p>
+            </div>
 
-            <div class="principles-list">
-              <div class="principle-item">
-                <span class="principle-num">01</span>
-                <p class="principle-text">I start with a question that matters to a real user,</p>
+            <div class="stage-card stage-3">
+              <div class="stage-top">
+                <span class="stage-badge">03</span>
+                <div class="stage-icon"><i class="fa-solid fa-gem"></i></div>
               </div>
-              <div class="principle-item">
-                <span class="principle-num">02</span>
-                <p class="principle-text">I understand the details before shaping a solution,</p>
-              </div>
-              <div class="principle-item">
-                <span class="principle-num">03</span>
-                <p class="principle-text">I keep refining until the outcome becomes useful.</p>
-              </div>
+              <p class="stage-statement">I keep refining until the outcome becomes useful.</p>
             </div>
           </div>
         </div>
