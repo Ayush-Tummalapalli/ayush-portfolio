@@ -611,6 +611,177 @@ ul {
   font-family: var(--font-code);
 }
 
+/* Commercial Client Spotlight Section */
+.spotlight-section {
+  position: relative;
+  background: linear-gradient(180deg, rgba(16, 21, 34, 0.7) 0%, rgba(11, 15, 23, 0.9) 100%);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.spotlight-badge {
+  background: rgba(16, 185, 129, 0.12);
+  border-color: rgba(16, 185, 129, 0.3);
+  color: #34d399;
+  margin-bottom: 16px;
+}
+
+.spotlight-card {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+  border-color: rgba(0, 242, 254, 0.2);
+  background: linear-gradient(135deg, rgba(22, 27, 38, 0.8) 0%, rgba(15, 20, 30, 0.9) 100%);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4), 0 0 30px rgba(0, 242, 254, 0.05);
+  position: relative;
+  overflow: hidden;
+}
+
+.spotlight-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent-cyan), var(--accent-purple), var(--accent-green));
+}
+
+.spotlight-header {
+  margin-bottom: 24px;
+}
+
+.spotlight-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.client-badge, .nda-badge, .live-status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 14px;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: var(--font-code);
+}
+
+.client-badge {
+  background: rgba(0, 242, 254, 0.1);
+  border: 1px solid rgba(0, 242, 254, 0.25);
+  color: var(--accent-cyan);
+}
+
+.nda-badge {
+  background: rgba(157, 78, 223, 0.1);
+  border: 1px solid rgba(157, 78, 223, 0.25);
+  color: #c084fc;
+}
+
+.live-status-badge {
+  background: rgba(16, 185, 129, 0.1);
+  border: 1px solid rgba(16, 185, 129, 0.25);
+  color: #34d399;
+}
+
+.spotlight-title {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+  color: var(--text-main);
+  line-height: 1.3;
+}
+
+.spotlight-location {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-dim);
+  font-size: 0.9rem;
+}
+
+.spotlight-body {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  margin-top: 10px;
+}
+
+.spotlight-story h4 {
+  font-size: 1.15rem;
+  color: var(--accent-cyan);
+  margin-bottom: 10px;
+}
+
+.spotlight-story p {
+  color: var(--text-muted);
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.spotlight-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.metric-card {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: var(--transition);
+}
+
+.metric-card:hover {
+  background: rgba(0, 242, 254, 0.05);
+  border-color: rgba(0, 242, 254, 0.3);
+  transform: translateY(-2px);
+}
+
+.metric-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-sm);
+  background: linear-gradient(135deg, rgba(0, 242, 254, 0.15), rgba(157, 78, 223, 0.15));
+  color: var(--accent-cyan);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.metric-title {
+  display: block;
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--text-main);
+  margin-bottom: 6px;
+}
+
+.metric-desc {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.spotlight-footer {
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border-color);
+}
+
+.functional-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
 /* Project Section */
 .project-filters {
   display: flex;
@@ -1071,11 +1242,14 @@ ul {
   .projects-grid { grid-template-columns: 1fr; }
   .skills-grid { grid-template-columns: 1fr; }
   .soft-skills-grid { grid-template-columns: 1fr; }
+  .spotlight-metrics-grid { grid-template-columns: 1fr; }
   .cert-grid { grid-template-columns: repeat(2, 1fr); }
   .info-list { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 768px) {
+  .spotlight-card { padding: 28px 18px; }
+  .spotlight-title { font-size: 1.4rem; }
   .info-list { grid-template-columns: 1fr; }
   .interests-grid { grid-template-columns: repeat(2, 1fr); }
 }
