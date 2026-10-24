@@ -66,6 +66,6 @@ ayush-portfolio/
 ## 📫 Get in Touch
 
 - **Email**: [ayush.tummalapalli@gmail.com](mailto:ayush.tummalapalli@gmail.com)
-- **LinkedIn**: [linkedin.com/in/ayushtummalapalli](https://www.linkedin.com/in/ayushtummalapalli/)
+- **LinkedIn**: [linkedin.com/in/ayushtummalapalli]([https://www.linkedin.com/in/ayushtummalapalli/](https://www.linkedin.com/in/ayush-tummalapalli-4b2a23316/))
 - **GitHub**: [github.com/Ayush-Tummalapalli](https://github.com/Ayush-Tummalapalli)
 - **Portfolio**: [ayush-tummalapalli.github.io/ayush-portfolio](https://ayush-tummalapalli.github.io/ayush-portfolio/)
