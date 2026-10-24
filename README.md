@@ -2,7 +2,7 @@
 
 [![Live Portfolio](https://img.shields.io/badge/Live_Site-ayush--tummalapalli.github.io-00f2fe?style=for-the-badge&logo=googlechrome&logoColor=black)](https://ayush-tummalapalli.github.io/ayush-portfolio/)
 [![GitHub](https://img.shields.io/badge/GitHub-Ayush--Tummalapalli-181717?style=for-the-badge&logo=github)](https://github.com/Ayush-Tummalapalli)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ayush_Tummalapalli-0077b5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ayushtummalapalli/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ayush_Tummalapalli-0077b5?style=for-the-badge&logo=linkedin)]([https://www.linkedin.com/in/ayushtummalapalli/](https://www.linkedin.com/in/ayush-tummalapalli-4b2a23316/))
 
 Welcome to the official repository for my personal developer portfolio website. Designed with a custom **Dark Cyberpunk & Glassmorphism** design system, cyber-neon accents, fluid `clamp()` typography, and full responsiveness across all screen sizes.
 
