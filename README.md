@@ -8,7 +8,7 @@ Welcome to the official repository for my personal developer portfolio website. 
 
 ## 🚀 Professional Highlights
 
-- **Freelance Product Architect & Full-Stack Developer** — [Vinayaka Brokers](#-commercial-client-spotlight) (Sep 2026): Designed, architected, and shipped a cloud-based deal confirmation and brokerage management platform powering daily commodity trading operations.
+- **Freelance Product Architect & Full-Stack Developer** — ["Vinayaka Brokers"] (Sep 2026): Designed, architected, and shipped a cloud-based deal confirmation and brokerage management platform powering daily commodity trading operations.
 - **Former Remote Salesforce Intern** (May 2025 – Jul 2025): Hands-on experience with Salesforce CRM workflows, process automation, and enterprise data management.
 - **Semester Abroad Scholar** — **INTI International University, Malaysia** (Aug 2025 – Dec 2025, CGPA 3.19/4): International computer science study focused on global tech perspectives and multicultural collaboration.
 - **B.Tech in Computer Science and Engineering** — **SRM University AP** (Aug 2023 – May 2027, CGPA 8.23/10).
